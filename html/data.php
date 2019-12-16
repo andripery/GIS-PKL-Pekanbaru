@@ -56,7 +56,7 @@ include("koneksi.php");
                                     echo "<td>" . $data['features_properties_Kecamatan'] . "</td>";
                                     echo "<td>" . $data['features_properties_X'] . "</td>";
                                     echo "<td>" . $data['features_properties_Y'] . "</td>";
-                                    echo "<td>" . $data['features_properties_Foto'] . "</td>";
+                                    echo "<td><img src='" . $data['features_properties_Foto'] . "' width=100></td>";
 
                                     echo "<td>";
                                     echo "<a href='form-edit.php?id=" . $data['features_id'] . "'>Edit</a> | ";
