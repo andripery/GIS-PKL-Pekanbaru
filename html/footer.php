@@ -1,0 +1,1 @@
+<footer class="footer text-center"> Kelompok 1 Sistem Informasi Geografis 3TIB </footer>

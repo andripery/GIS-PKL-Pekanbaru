@@ -1,0 +1,1139 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 0,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.44098700000006,
+          0.5320920000000342
+        ]
+      },
+      "properties": {
+        "FID": 0,
+        "No_": 1,
+        "Nama_Pemet": "Pedagang Buah",
+        "Alamat": "Jl. Teratai",
+        "Kelurahan": "Padang Bulan",
+        "Kecamatan": "Senapelan",
+        "Y": 0.532092,
+        "X": 101.440987,
+        "Foto": "<img src='https://i.ibb.co/qBGswWj/1.png'/>",
+        "F9": " ",
+        "F10": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.44094400000006,
+          0.5319310000000428
+        ]
+      },
+      "properties": {
+        "FID": 1,
+        "No_": 2,
+        "Nama_Pemet": "Pedagang Sayur",
+        "Alamat": "Jl. Teratai",
+        "Kelurahan": "Padang Bulan",
+        "Kecamatan": "Senapelan",
+        "Y": 0.531931,
+        "X": 101.440944,
+        "Foto": "image/2.png",
+        "F9": " ",
+        "F10": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.44236700000005,
+          0.5275370000000521
+        ]
+      },
+      "properties": {
+        "FID": 2,
+        "No_": 6,
+        "Nama_Pemet": "Pedagang Es Tebu",
+        "Alamat": "Jl. Ahmad Yani",
+        "Kelurahan": "Padang Bulan",
+        "Kecamatan": "Senapelan",
+        "Y": 0.527537,
+        "X": 101.442367,
+        "Foto": "image/6.png",
+        "F9": " ",
+        "F10": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.44236700000005,
+          0.5275420000000395
+        ]
+      },
+      "properties": {
+        "FID": 3,
+        "No_": 7,
+        "Nama_Pemet": "Pedagang Gorengan",
+        "Alamat": "Jl. Ahmad Yani",
+        "Kelurahan": "Padang Bulan",
+        "Kecamatan": "Senapelan",
+        "Y": 0.527542,
+        "X": 101.442367,
+        "Foto": "image/7.png",
+        "F9": " ",
+        "F10": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.44236700000005,
+          0.5275310000000673
+        ]
+      },
+      "properties": {
+        "FID": 4,
+        "No_": 8,
+        "Nama_Pemet": "Kue Pao",
+        "Alamat": "Jl. Ahmad Yani",
+        "Kelurahan": "Padang Bulan",
+        "Kecamatan": "Senapelan",
+        "Y": 0.527531,
+        "X": 101.442367,
+        "Foto": "image/8.png",
+        "F9": " ",
+        "F10": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.44243500000005,
+          0.5275360000000546
+        ]
+      },
+      "properties": {
+        "FID": 5,
+        "No_": 9,
+        "Nama_Pemet": "Molen",
+        "Alamat": "Jl. Ahmad Yani",
+        "Kelurahan": "Padang Bulan",
+        "Kecamatan": "Senapelan",
+        "Y": 0.527536,
+        "X": 101.442435,
+        "Foto": "image/9.png",
+        "F9": " ",
+        "F10": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.45400000000006,
+          0.5132220000000416
+        ]
+      },
+      "properties": {
+        "FID": 6,
+        "No_": 10,
+        "Nama_Pemet": "Pedagang Minuman",
+        "Alamat": "Jl. Ronggo Warsito",
+        "Kelurahan": "Suka Maju",
+        "Kecamatan": "Sail",
+        "Y": 0.513222,
+        "X": 101.454,
+        "Foto": "image/10.png",
+        "F9": " ",
+        "F10": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.45476400000007,
+          0.5132440000000429
+        ]
+      },
+      "properties": {
+        "FID": 7,
+        "No_": 11,
+        "Nama_Pemet": "Pedagang Es Tebu",
+        "Alamat": "Jl. Ronggo Warsito",
+        "Kelurahan": "Suka Maju",
+        "Kecamatan": "Sail",
+        "Y": 0.513244,
+        "X": 101.454764,
+        "Foto": "image/11.png",
+        "F9": " ",
+        "F10": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.45559400000008,
+          0.5131940000000554
+        ]
+      },
+      "properties": {
+        "FID": 8,
+        "No_": 12,
+        "Nama_Pemet": "Kue Cubit UWA",
+        "Alamat": "Jl. Ronggo Warsito",
+        "Kelurahan": "Suka Maju",
+        "Kecamatan": "Sail",
+        "Y": 0.513194,
+        "X": 101.455594,
+        "Foto": "image/12.png",
+        "F9": " ",
+        "F10": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.45585100000005,
+          0.5131650000000718
+        ]
+      },
+      "properties": {
+        "FID": 9,
+        "No_": 13,
+        "Nama_Pemet": "Pedagang Kebab",
+        "Alamat": "Jl. Ronggo Warsito",
+        "Kelurahan": "Suka Maju",
+        "Kecamatan": "Sail",
+        "Y": 0.513165,
+        "X": 101.455851,
+        "Foto": "image/13 .png",
+        "F9": " ",
+        "F10": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.45667900000007,
+          0.5131480000000579
+        ]
+      },
+      "properties": {
+        "FID": 10,
+        "No_": 14,
+        "Nama_Pemet": "Gorengan Ajo Kito",
+        "Alamat": "Jl. Ronggo Warsito",
+        "Kelurahan": "Suka Maju",
+        "Kecamatan": "Sail",
+        "Y": 0.513148,
+        "X": 101.456679,
+        "Foto": "image/14.png",
+        "F9": " ",
+        "F10": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.45669700000008,
+          0.5128740000000676
+        ]
+      },
+      "properties": {
+        "FID": 11,
+        "No_": 15,
+        "Nama_Pemet": "Pedagang Jus",
+        "Alamat": "Jl. WR Supratman",
+        "Kelurahan": "Cinta Raja",
+        "Kecamatan": "Sail",
+        "Y": 0.512874,
+        "X": 101.456697,
+        "Foto": "image/15.png",
+        "F9": " ",
+        "F10": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.45671100000004,
+          0.5122030000000564
+        ]
+      },
+      "properties": {
+        "FID": 12,
+        "No_": 16,
+        "Nama_Pemet": "Pedagang eskrim goreng",
+        "Alamat": "Jl. WR Supratman",
+        "Kelurahan": "Cinta Raja",
+        "Kecamatan": "Sail",
+        "Y": 0.512203,
+        "X": 101.456711,
+        "Foto": "image/16.png",
+        "F9": " ",
+        "F10": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.45567300000005,
+          0.5103000000000293
+        ]
+      },
+      "properties": {
+        "FID": 13,
+        "No_": 17,
+        "Nama_Pemet": "Pedagang Cilok",
+        "Alamat": "Jl. Pattimura",
+        "Kelurahan": "Cinta Raja",
+        "Kecamatan": "Sail",
+        "Y": 0.5103,
+        "X": 101.455673,
+        "Foto": "image/17.png",
+        "F9": " ",
+        "F10": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.45553900000004,
+          0.5103020000000242
+        ]
+      },
+      "properties": {
+        "FID": 14,
+        "No_": 18,
+        "Nama_Pemet": "Pedagang Es Tebu",
+        "Alamat": "Jl. Pattimura",
+        "Kelurahan": "Cinta Raja",
+        "Kecamatan": "Sail",
+        "Y": 0.510302,
+        "X": 101.455539,
+        "Foto": "image/18.png",
+        "F9": " ",
+        "F10": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.45610900000008,
+          0.5103010000000268
+        ]
+      },
+      "properties": {
+        "FID": 15,
+        "No_": 19,
+        "Nama_Pemet": "Pedagang Minuman",
+        "Alamat": "Jl. Pattimura",
+        "Kelurahan": "Cinta Raja",
+        "Kecamatan": "Sail",
+        "Y": 0.510301,
+        "X": 101.456109,
+        "Foto": "image/19.png",
+        "F9": " ",
+        "F10": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.45659000000006,
+          0.49955300000004854
+        ]
+      },
+      "properties": {
+        "FID": 16,
+        "No_": 20,
+        "Nama_Pemet": "Pedagang Makanan",
+        "Alamat": "Jl. Imam Munandar",
+        "Kelurahan": "Tangkerang Selatan",
+        "Kecamatan": "Bukit Raya",
+        "Y": 0.499553,
+        "X": 101.45659,
+        "Foto": "image/20.png",
+        "F9": " ",
+        "F10": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.45645300000007,
+          0.4996060000000284
+        ]
+      },
+      "properties": {
+        "FID": 17,
+        "No_": 21,
+        "Nama_Pemet": "Pedagang Mainan",
+        "Alamat": "Jl. Imam Munandar",
+        "Kelurahan": "Tangkerang Selatan",
+        "Kecamatan": "Bukit Raya",
+        "Y": 0.499606,
+        "X": 101.456453,
+        "Foto": "image/21.png",
+        "F9": " ",
+        "F10": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.45598500000006,
+          0.4995720000000574
+        ]
+      },
+      "properties": {
+        "FID": 18,
+        "No_": 22,
+        "Nama_Pemet": "Pedagang Kelapa Muda",
+        "Alamat": "Jl. Imam Munandar",
+        "Kelurahan": "Tangkerang Selatan",
+        "Kecamatan": "Bukit Raya",
+        "Y": 0.499572,
+        "X": 101.455985,
+        "Foto": "image/22.png",
+        "F9": " ",
+        "F10": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.45215600000006,
+          0.5090170000000285
+        ]
+      },
+      "properties": {
+        "FID": 19,
+        "No_": 23,
+        "Nama_Pemet": "Mie Sagu",
+        "Alamat": "Jl. Diponegoro",
+        "Kelurahan": "Cinta Raja",
+        "Kecamatan": "Sail",
+        "Y": 0.509017,
+        "X": 101.452156,
+        "Foto": "image/23.png",
+        "F9": " ",
+        "F10": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.45210500000007,
+          0.5098270000000298
+        ]
+      },
+      "properties": {
+        "FID": 20,
+        "No_": 24,
+        "Nama_Pemet": "Pedagang Es Tebu",
+        "Alamat": "Jl. Diponegoro",
+        "Kelurahan": "Cinta Raja",
+        "Kecamatan": "Sail",
+        "Y": 0.509827,
+        "X": 101.452105,
+        "Foto": "image/24.png",
+        "F9": " ",
+        "F10": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.45826400000004,
+          0.5095330000000331
+        ]
+      },
+      "properties": {
+        "FID": 21,
+        "No_": 25,
+        "Nama_Pemet": "Seblak & Cilok",
+        "Alamat": "Jl. Abdul Muis",
+        "Kelurahan": "Cinta Raja",
+        "Kecamatan": "Sail",
+        "Y": 0.509533,
+        "X": 101.458264,
+        "Foto": "image/25.png",
+        "F9": " ",
+        "F10": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.45834400000007,
+          0.5095110000000318
+        ]
+      },
+      "properties": {
+        "FID": 22,
+        "No_": 26,
+        "Nama_Pemet": "Kerak Telor",
+        "Alamat": "Jl. Abdul Muis",
+        "Kelurahan": "Cinta Raja",
+        "Kecamatan": "Sail",
+        "Y": 0.509511,
+        "X": 101.458344,
+        "Foto": "image/26.png",
+        "F9": " ",
+        "F10": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.45839700000005,
+          0.5095200000000659
+        ]
+      },
+      "properties": {
+        "FID": 23,
+        "No_": 27,
+        "Nama_Pemet": "Pedagang Es Tebu",
+        "Alamat": "Jl. Abdul Muis",
+        "Kelurahan": "Cinta Raja",
+        "Kecamatan": "Sail",
+        "Y": 0.50952,
+        "X": 101.458397,
+        "Foto": "image/27.png",
+        "F9": " ",
+        "F10": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.45370200000008,
+          0.5116520000000264
+        ]
+      },
+      "properties": {
+        "FID": 24,
+        "No_": 28,
+        "Nama_Pemet": "Pedagang Minuman",
+        "Alamat": "Jl. Amal Hamzah",
+        "Kelurahan": "Cinta Raja",
+        "Kecamatan": "Sail",
+        "Y": 0.511652,
+        "X": 101.453702,
+        "Foto": "image/28.png",
+        "F9": " ",
+        "F10": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.45367500000003,
+          0.5116440000000466
+        ]
+      },
+      "properties": {
+        "FID": 25,
+        "No_": 29,
+        "Nama_Pemet": "Kebab/Burger Roti Bakar",
+        "Alamat": "Jl. Amal Hamzah",
+        "Kelurahan": "Cinta Raja",
+        "Kecamatan": "Sail",
+        "Y": 0.511644,
+        "X": 101.453675,
+        "Foto": "image/29.png",
+        "F9": " ",
+        "F10": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.44178600000004,
+          0.5322800000000711
+        ]
+      },
+      "properties": {
+        "FID": 26,
+        "No_": 30,
+        "Nama_Pemet": "Batagor",
+        "Alamat": "Jl. Prof. Moh. Yamin",
+        "Kelurahan": "Padang Terubuk",
+        "Kecamatan": "Senapelan",
+        "Y": 0.53228,
+        "X": 101.441786,
+        "Foto": "image/30.png",
+        "F9": " ",
+        "F10": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.44175700000005,
+          0.5322800000000711
+        ]
+      },
+      "properties": {
+        "FID": 27,
+        "No_": 31,
+        "Nama_Pemet": "Pedagang Minuman",
+        "Alamat": "Jl. Prof. Moh. Yamin",
+        "Kelurahan": "Padang Terubuk",
+        "Kecamatan": "Senapelan",
+        "Y": 0.53228,
+        "X": 101.441757,
+        "Foto": "image/31.png",
+        "F9": " ",
+        "F10": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.44172100000009,
+          0.5322910000000434
+        ]
+      },
+      "properties": {
+        "FID": 28,
+        "No_": 32,
+        "Nama_Pemet": "Cilok",
+        "Alamat": "Jl. Prof. Moh. Yamin",
+        "Kelurahan": "Padang Terubuk",
+        "Kecamatan": "Senapelan",
+        "Y": 0.532291,
+        "X": 101.441721,
+        "Foto": "image/32.png",
+        "F9": " ",
+        "F10": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 29,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.43647000000004,
+          0.5731590000000324
+        ]
+      },
+      "properties": {
+        "FID": 29,
+        "No_": 33,
+        "Nama_Pemet": "Siomay",
+        "Alamat": "Jl. Camp Rumbai",
+        "Kelurahan": "Lembah Damai",
+        "Kecamatan": "Rumbai Pesisir",
+        "Y": 0.573159,
+        "X": 101.43647,
+        "Foto": "image/33.png",
+        "F9": " ",
+        "F10": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 30,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.43654200000009,
+          0.5731880000000729
+        ]
+      },
+      "properties": {
+        "FID": 30,
+        "No_": 34,
+        "Nama_Pemet": "Takoyaki",
+        "Alamat": "Jl. Camp Rumbai",
+        "Kelurahan": "Lembah Damai",
+        "Kecamatan": "Rumbai Pesisir",
+        "Y": 0.573188,
+        "X": 101.436542,
+        "Foto": "image/31.png",
+        "F9": " ",
+        "F10": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 31,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.44087700000006,
+          0.5604990000000498
+        ]
+      },
+      "properties": {
+        "FID": 31,
+        "No_": 35,
+        "Nama_Pemet": "Es Dawet",
+        "Alamat": "Jl. Sekolah",
+        "Kelurahan": "Limbungan baru",
+        "Kecamatan": "Rumbai pesisir",
+        "Y": 0.560499,
+        "X": 101.440877,
+        "Foto": "image/32.png",
+        "F9": " ",
+        "F10": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 32,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.44117100000005,
+          0.5603970000000231
+        ]
+      },
+      "properties": {
+        "FID": 32,
+        "No_": 36,
+        "Nama_Pemet": "Roti Bakar Sandwich",
+        "Alamat": "Jl. Sekolah",
+        "Kelurahan": "Limbungan baru",
+        "Kecamatan": "Rumbai pesisir",
+        "Y": 0.560397,
+        "X": 101.441171,
+        "Foto": "image/33.png",
+        "F9": " ",
+        "F10": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 33,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.44299800000005,
+          0.5359070000000656
+        ]
+      },
+      "properties": {
+        "FID": 33,
+        "No_": 37,
+        "Nama_Pemet": "Pedagang Bakso Bakar",
+        "Alamat": "Jl. Jend. A. Yani",
+        "Kelurahan": "Kampung Bandar",
+        "Kecamatan": "Senapelan",
+        "Y": 0.535907,
+        "X": 101.442998,
+        "Foto": "image/34.png",
+        "F9": " ",
+        "F10": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 34,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.44293500000003,
+          0.5352790000000596
+        ]
+      },
+      "properties": {
+        "FID": 34,
+        "No_": 38,
+        "Nama_Pemet": "Pedagang Minuman",
+        "Alamat": "Jl. Jend. A. Yani",
+        "Kelurahan": "Kampung Bandar",
+        "Kecamatan": "Senapelan",
+        "Y": 0.535279,
+        "X": 101.442935,
+        "Foto": "image/35.png",
+        "F9": " ",
+        "F10": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 35,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.44296800000006,
+          0.5354460000000358
+        ]
+      },
+      "properties": {
+        "FID": 35,
+        "No_": 39,
+        "Nama_Pemet": "Pedagang Minuman",
+        "Alamat": "Jl. Jend. A. Yani",
+        "Kelurahan": "Kampung Bandar",
+        "Kecamatan": "Senapelan",
+        "Y": 0.535446,
+        "X": 101.442968,
+        "Foto": "image/36.png",
+        "F9": " ",
+        "F10": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 36,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.44733900000006,
+          0.5334640000000377
+        ]
+      },
+      "properties": {
+        "FID": 36,
+        "No_": 40,
+        "Nama_Pemet": "Pedagang Kue Putu Bambu",
+        "Alamat": "Jl. Dr Sam Ratulangi",
+        "Kelurahan": "Sago",
+        "Kecamatan": "Senapelan",
+        "Y": 0.533464,
+        "X": 101.447339,
+        "Foto": "image/37.png",
+        "F9": " ",
+        "F10": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 37,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.44723600000003,
+          0.533486000000039
+        ]
+      },
+      "properties": {
+        "FID": 37,
+        "No_": 41,
+        "Nama_Pemet": "Pedagang Martabak",
+        "Alamat": "Jl. Dr Sam Ratulangi",
+        "Kelurahan": "Sago",
+        "Kecamatan": "Senapelan",
+        "Y": 0.533486,
+        "X": 101.447236,
+        "Foto": "image/38.png",
+        "F9": " ",
+        "F10": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 38,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.44714200000004,
+          0.5335260000000517
+        ]
+      },
+      "properties": {
+        "FID": 38,
+        "No_": 42,
+        "Nama_Pemet": "Pedagang Gorengan",
+        "Alamat": "Jl. Dr Sam Ratulangi",
+        "Kelurahan": "Sago",
+        "Kecamatan": "Senapelan",
+        "Y": 0.533526,
+        "X": 101.447142,
+        "Foto": "image/39.png",
+        "F9": " ",
+        "F10": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 39,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.44691700000004,
+          0.5335390000000757
+        ]
+      },
+      "properties": {
+        "FID": 39,
+        "No_": 43,
+        "Nama_Pemet": "Pedagang kerupuk",
+        "Alamat": "Jl. Dr Sam Ratulangi",
+        "Kelurahan": "Sago",
+        "Kecamatan": "Senapelan",
+        "Y": 0.533539,
+        "X": 101.446917,
+        "Foto": "image/40.png",
+        "F9": " ",
+        "F10": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 40,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.44595100000004,
+          0.5336670000000368
+        ]
+      },
+      "properties": {
+        "FID": 40,
+        "No_": 44,
+        "Nama_Pemet": "Pedagang kerupuk",
+        "Alamat": "Jl. Dr Sam Ratulangi",
+        "Kelurahan": "Sago",
+        "Kecamatan": "Senapelan",
+        "Y": 0.533667,
+        "X": 101.445951,
+        "Foto": "image/41.png",
+        "F9": " ",
+        "F10": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 41,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.44479500000006,
+          0.5337890000000698
+        ]
+      },
+      "properties": {
+        "FID": 41,
+        "No_": 45,
+        "Nama_Pemet": "Pedagang kerupuk",
+        "Alamat": "Jl. Dr Sam Ratulangi",
+        "Kelurahan": "Sago",
+        "Kecamatan": "Senapelan",
+        "Y": 0.533789,
+        "X": 101.444795,
+        "Foto": "image/42.png",
+        "F9": " ",
+        "F10": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 42,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.43634800000007,
+          0.5731380000000286
+        ]
+      },
+      "properties": {
+        "FID": 42,
+        "No_": 46,
+        "Nama_Pemet": "Martel Garing",
+        "Alamat": "Jl. Camp Rumbai",
+        "Kelurahan": "Lembah Damai",
+        "Kecamatan": "Rumbai Pesisir",
+        "Y": 0.573138,
+        "X": 101.436348,
+        "Foto": "image/43.png",
+        "F9": " ",
+        "F10": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 43,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.43679100000008,
+          0.5732420000000502
+        ]
+      },
+      "properties": {
+        "FID": 43,
+        "No_": 47,
+        "Nama_Pemet": "Es Tebu",
+        "Alamat": "Jl. Camp Rumbai",
+        "Kelurahan": "Lembah Damai",
+        "Kecamatan": "Rumbai Pesisir",
+        "Y": 0.573242,
+        "X": 101.436791,
+        "Foto": "image/1.png",
+        "F9": " ",
+        "F10": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 44,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.43629000000004,
+          0.5730870000000436
+        ]
+      },
+      "properties": {
+        "FID": 44,
+        "No_": 48,
+        "Nama_Pemet": "Milkshake",
+        "Alamat": "Jl. Camp Rumbai",
+        "Kelurahan": "Lembah Damai",
+        "Kecamatan": "Rumbai Pesisir",
+        "Y": 0.573087,
+        "X": 101.43629,
+        "Foto": "image/1.png",
+        "F9": " ",
+        "F10": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 45,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.43684200000007,
+          0.5732260000000338
+        ]
+      },
+      "properties": {
+        "FID": 45,
+        "No_": 49,
+        "Nama_Pemet": "Mie cool",
+        "Alamat": "Jl. Camp Rumbai",
+        "Kelurahan": "Lembah Damai",
+        "Kecamatan": "Rumbai Pesisir",
+        "Y": 0.573226,
+        "X": 101.436842,
+        "Foto": "image/1.png",
+        "F9": " ",
+        "F10": " "
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 46,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.43692800000008,
+          0.5733070000000566
+        ]
+      },
+      "properties": {
+        "FID": 46,
+        "No_": 50,
+        "Nama_Pemet": "Tahu krez",
+        "Alamat": "Jl. Camp Rumbai",
+        "Kelurahan": "Lembah Damai",
+        "Kecamatan": "Rumbai Pesisir",
+        "Y": 0.573307,
+        "X": 101.436928,
+        "Foto": "image/1.png",
+        "F9": " ",
+        "F10": " "
+      }
+    }
+  ]
+}
