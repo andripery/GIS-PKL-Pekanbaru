@@ -26,7 +26,9 @@ include 'navigation.php';
             <div class="col-sm-12">
                 <div class="white-box">
                     <h3 class="box-title">Titik Pedagang Kaki Lima Liar di Pekanbaru</h3>
-                    <?php include 'map.php'; ?>
+                    <?php
+                    include 'koneksi.php';
+                    include 'maps.php'; ?>
                 </div>
             </div>
         </div>

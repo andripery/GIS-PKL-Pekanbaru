@@ -1,4 +1,4 @@
-<body class="fix-header">
+<body class="fix-header" onload="peta_awal()">
     <!-- ============================================================== -->
     <!-- Preloader -->
     <!-- ============================================================== -->
@@ -28,6 +28,7 @@
                             <!-- <img src="../plugins/images/admin-logo-dark.png" alt="home" class="light-logo" /> -->
                         </b>
                         <!-- Logo text image you can use text also -->
+                        <span>3TIB</span>
                         <span class="hidden-xs">
                             <!--This is dark logo text-->
                             <!-- <img src="../plugins/images/admin-text.png" alt="home" class="dark-logo" /> -->
