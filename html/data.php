@@ -24,8 +24,25 @@ include("koneksi.php");
         <!-- /row -->
         <div class="row">
             <div class="col-sm-12">
+                <ul class="nav navbar-top-links navbar-right pull-right">
+                    <li>
+                        <a class="nav-toggler open-close waves-effect waves-light hidden-md hidden-lg" href="javascript:void(0)"><i class="fa fa-bars"></i></a>
+                    </li>
+                    <li>
+                        <form action="data.php" method="get" role="search" class="app-search hidden-sm hidden-xs m-r-10">
+                            <input type="text" placeholder="Search..." class="form-control" name="cari">
+                            <input type="submit" value="   ">
+                            <a href="">
+
+                                <i class="fa fa-search"></i></input>
+                            </a>
+                        </form>
+                    </li>
+                </ul>
                 <div class="white-box">
+
                     <h3 class="box-title">Basic Table</h3>
+
                     <div class="table-responsive">
                         <table class="table">
                             <thead>

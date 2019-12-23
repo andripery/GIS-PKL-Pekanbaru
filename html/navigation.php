@@ -22,18 +22,16 @@
                         <!-- Logo icon image, you can use font-icon also -->
                         <b>
                             <!--This is dark logo icon-->
-                            <!-- <img src="../plugins/images/cropped-cropped-logo-color.png" alt="home"> -->
                             <!-- <img src="../plugins/images/admin-logo.png" alt="home" class="dark-logo" /> -->
                             <!--This is light logo icon-->
-                            <!-- <img src="../plugins/images/admin-logo-dark.png" alt="home" class="light-logo" /> -->
+                            <img src="../plugins/images/admin-logo-dark.png" alt="home" class="light-logo" />
                         </b>
                         <!-- Logo text image you can use text also -->
-                        <span>3TIB</span>
                         <span class="hidden-xs">
                             <!--This is dark logo text-->
                             <!-- <img src="../plugins/images/admin-text.png" alt="home" class="dark-logo" /> -->
                             <!--This is light logo text-->
-                            <!-- <img src="../plugins/images/admin-text-dark.png" alt="home" class="light-logo" /> -->
+                            <img src="../plugins/images/admin-text-dark.jpg" alt="home" class="light-logo" />
                         </span>
                     </a>
                 </div>
