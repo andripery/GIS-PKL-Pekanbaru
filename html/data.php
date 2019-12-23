@@ -31,9 +31,8 @@ include("koneksi.php");
                     <li>
                         <form action="data.php" method="get" role="search" class="app-search hidden-sm hidden-xs m-r-10">
                             <input type="text" placeholder="Search..." class="form-control" name="cari">
-                            <input type="submit" value="   ">
+                            <input type="submit" value="    ">
                             <a href="">
-
                                 <i class="fa fa-search"></i></input>
                             </a>
                         </form>
@@ -60,13 +59,37 @@ include("koneksi.php");
                             </thead>
                             <tbody>
                                 <?php
-                                $sql = "SELECT * FROM pkl";
-                                $query = mysqli_query($db, $sql);
+                                // $sql = "SELECT * FROM pkl";
+                                // $query = mysqli_query($db, $sql);
 
+                                $query = mysqli_query($db, "SELECT features_id, features_properties_No, features_properties_Nama_Pemet, features_properties_Alamat,
+                                features_properties_Kelurahan, features_properties_Kecamatan, features_properties_X, features_properties_Y, features_properties_Foto FROM pkl");
+
+                                // if (isset($_GET['cari'])) {
+                                //     $cari = $_GET['cari'];
+                                //     $query = mysqli_query($db, "SELECT features_id, features_properties_No, features_properties_Nama_Pemet, features_properties_Alamat,
+                                //     features_properties_Kelurahan, features_properties_Kecamatan, features_properties_X, features_properties_Y, features_properties_Foto FROM pkl WHERE tanggal like '%" . $cari . "%' order by features_properties_No");
+                                // } else {
+                                //     $query = mysqli_query($db, "SELECT features_id, features_properties_No, features_properties_Nama_Pemet, features_properties_Alamat,
+                                //     features_properties_Kelurahan, features_properties_Kecamatan, features_properties_X, features_properties_Y, features_properties_Foto FROM pkl");
+                                // }
+
+                                // if (isset($_GET['cari'])) {
+                                //     $cari = $_GET['cari'];
+                                //     $sql = "SELECT features_properties_No, features_properties_Nama_Pemet, features_properties_Alamat, features_properties_Kelurahan, features_properties_Kecamatan FROM pkl WHERE tanggal like '%" . $cari . "%' order by features_properties_No";
+                                //     $query = mysqli_query($db, $sql);
+                                // } else {
+                                //     $sql = "SELECT * FROM pkl";
+                                //     $query = mysqli_query($db, $sql);
+                                // }
+
+
+
+                                $no = 1;
                                 while ($data = mysqli_fetch_array($query)) {
                                     echo "<tr>";
 
-                                    echo "<td>" . $data['features_properties_No'] . "</td>";
+                                    echo "<td>" . $no++ . "</td>";
                                     echo "<td>" . $data['features_properties_Nama_Pemet'] . "</td>";
                                     echo "<td>" . $data['features_properties_Alamat'] . "</td>";
                                     echo "<td>" . $data['features_properties_Kelurahan'] . "</td>";
