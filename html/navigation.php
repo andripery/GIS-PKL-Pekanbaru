@@ -68,10 +68,16 @@
                 </div>
                 <ul class="nav" id="side-menu">
                     <li style="padding: 70px 0 0;">
-                        <a href="index.php" class="waves-effect"><i class="fa fa-globe fa-fw" aria-hidden="true"></i>Base Map</a>
+                        <a href="index.php" class="waves-effect"><i class="fa fa-clock-o fa-fw"
+                        aria-hidden="true"></i>Dashboard</a>
                     </li>
                     <li>
-                        <a href="data.php" class="waves-effect"><i class="fa fa-table fa-fw" aria-hidden="true"></i>Data</a>
+                        <a href="basemap.php" class="waves-effect"><i class="fa fa-globe fa-fw" 
+                        aria-hidden="true"></i>Base Map</a>
+                    </li>
+                    <li>
+                        <a href="data.php" class="waves-effect"><i class="fa fa-table fa-fw" 
+                        aria-hidden="true"></i>Data</a>
                     </li>
                 </ul>
             </div>
