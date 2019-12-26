@@ -39,7 +39,7 @@
         };
 
         // Layer control
-        L.control.layers(baseMaps).addTo(map);
+        L.control.layers(baseMaps, baseMaps).addTo(map);
         // Adding layer to the map
         map.addLayer(peta);
 

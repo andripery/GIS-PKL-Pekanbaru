@@ -29,10 +29,19 @@ include("koneksi.php");
                         <a class="nav-toggler open-close waves-effect waves-light hidden-md hidden-lg" href="javascript:void(0)"><i class="fa fa-bars"></i></a>
                     </li>
                     <li>
-                        <form action="data.php" method="get" role="search" class="app-search hidden-sm hidden-xs m-r-10">
-                            <input type="text" placeholder="Search..." class="form-control" name="cari">
-                            <input type="submit" value="    ">
-                            <a href="">
+                        <form action="data.php" method="get" role="search" class="app-search hidden-sm hidden-xs m-r-10" id="formcari">
+                            <input type="text" placeholder="
+                            <?php
+                            if (isset($_GET['cari'])) {
+                                $cari = $_GET['cari'];
+                                echo $cari;
+                            }else {
+                                echo "Search...";
+                            }
+                            ?>
+                            " class="form-control" name="cari">
+                            <!-- <input type="submit" value="    "> -->
+                            <a href="" onclick="this.parentNode.submit(); return false;">
                                 <i class="fa fa-search"></i></input>
                             </a>
                         </form>
@@ -40,7 +49,7 @@ include("koneksi.php");
                 </ul>
                 <div class="white-box">
 
-                    <h3 class="box-title">Basic Table</h3>
+                    <h3 class="box-title">Data Pedagang Kaki Lima</h3>
 
                     <div class="table-responsive">
                         <table class="table">
