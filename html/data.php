@@ -75,7 +75,7 @@ include("koneksi.php");
                                     // }
                                 } else {
                                     $query = mysqli_query($db, "SELECT features_id, features_properties_No, features_properties_Nama_Pemet, features_properties_Alamat,
-                                    features_properties_Kelurahan, features_properties_Kecamatan, features_properties_X, features_properties_Y, features_properties_Foto FROM pkl");
+                                    features_properties_Kelurahan, features_properties_Kecamatan, features_properties_X, features_properties_Y, features_properties_Foto FROM pkl order by features_properties_No");
                                     // if (!$check1_res) {
                                     //     printf("Error: %s\n", mysqli_error($con));
                                     //     exit();
