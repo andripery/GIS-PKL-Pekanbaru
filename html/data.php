@@ -35,7 +35,7 @@ include("koneksi.php");
                             if (isset($_GET['cari'])) {
                                 $cari = $_GET['cari'];
                                 echo $cari;
-                            }else {
+                            } else {
                                 echo "Search...";
                             }
                             ?>
@@ -50,6 +50,9 @@ include("koneksi.php");
                 <div class="white-box">
 
                     <h3 class="box-title">Data Pedagang Kaki Lima</h3>
+                    <a href="add-data.php" class="btn btn-primary">
+                        Add Data
+                    </a>
 
                     <div class="table-responsive">
                         <table class="table">
@@ -76,15 +79,15 @@ include("koneksi.php");
 
                                 if (isset($_GET['cari'])) {
                                     $cari = $_GET['cari'];
-                                    $query = mysqli_query($db, "SELECT features_id, features_properties_No, features_properties_Nama_Pemet, features_properties_Alamat,
-                                    features_properties_Kelurahan, features_properties_Kecamatan, features_properties_X, features_properties_Y, features_properties_Foto FROM pkl WHERE features_properties_Nama_Pemet like '%" . $cari . "%' order by features_properties_No");
+                                    $query = mysqli_query($db, "SELECT features_id, features_properties_Nama_Pemet, features_properties_Alamat,
+                                    features_properties_Kelurahan, features_properties_Kecamatan, features_properties_X, features_properties_Y, features_properties_Foto FROM pkl WHERE features_properties_Nama_Pemet like '%" . $cari . "%' order by features_id");
                                     // if (!$check1_res) {
                                     //     printf("Error: %s\n", mysqli_error($con));
                                     //     exit();
                                     // }
                                 } else {
-                                    $query = mysqli_query($db, "SELECT features_id, features_properties_No, features_properties_Nama_Pemet, features_properties_Alamat,
-                                    features_properties_Kelurahan, features_properties_Kecamatan, features_properties_X, features_properties_Y, features_properties_Foto FROM pkl order by features_properties_No");
+                                    $query = mysqli_query($db, "SELECT features_id, features_properties_Nama_Pemet, features_properties_Alamat,
+                                    features_properties_Kelurahan, features_properties_Kecamatan, features_properties_X, features_properties_Y, features_properties_Foto FROM pkl order by features_id");
                                     // if (!$check1_res) {
                                     //     printf("Error: %s\n", mysqli_error($con));
                                     //     exit();
@@ -116,8 +119,8 @@ include("koneksi.php");
                                     echo "<td><img src='" . $data['features_properties_Foto'] . "' width=100></td>";
 
                                     echo "<td>";
-                                    echo "<a href='form-edit.php?id=" . $data['features_id'] . "'>Edit</a> | ";
-                                    echo "<a href='hapus.php?id=" . $data['features_id'] . "'>Hapus</a>";
+                                    echo "<a href='form-edit.php?id=" . $data['features_id'] . "' class='btn btn-primary'><i class='fa fa-edit'></i></a> ";
+                                    echo "<a onClick=\"javascript: return confirm('Apakah anda ingin menghapus " . $data['features_properties_Nama_Pemet'] . "');\" href='hapus.php?id=" . $data['features_id'] . "' class='btn btn-danger'><i class='fa fa-trash-o'></i></a>";
                                     echo "</td>";
 
                                     echo "</tr>";

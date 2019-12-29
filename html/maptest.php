@@ -16,16 +16,6 @@
             zoom: 12
         }
 
-        var grayscale = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                id: 'MapID',
-                attribution: 'test'
-            }),
-            bw = L.tileLayer('http://{s}.tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png', {
-                id: 'MapID',
-                attribution: 'test'
-            });
-
-
         // Creating a map object
         var map = new L.map('map', mapOptions);
 
