@@ -13,11 +13,6 @@ include("koneksi.php");
                 <h4 class="page-title">Data</h4>
             </div>
             <div class="col-lg-9 col-sm-8 col-md-8 col-xs-12">
-
-                <ol class="breadcrumb">
-                    <li><a href="#">Dashboard</a></li>
-                    <li class="active">Data</li>
-                </ol>
             </div>
             <!-- /.col-lg-12 -->
         </div>
@@ -49,7 +44,7 @@ include("koneksi.php");
                 </ul>
                 <div class="white-box">
 
-                    <h3 class="box-title">Data Pedagang Kaki Lima</h3>
+                    <h3 class="box-title">Data Pedagang Kaki Lima Liar</h3>
                     <a href="add-data.php" class="btn btn-primary">
                         Add Data
                     </a>
