@@ -35,7 +35,7 @@ include("koneksi.php");
                     <?php
                     include "koneksi.php";
                     ?>
-                    <form class="form-horizontal form-material" action="insert.php" method="post">
+                    <form class="form-horizontal form-material" action="insert.php" method="post" enctype="multipart/form-data">
                         <div class="form-group">
                             <label class="col-md-12">Nama</label>
                             <div class="col-md-12">
@@ -70,7 +70,7 @@ include("koneksi.php");
                         <div class="form-group">
                             <label class="col-md-12">Foto</label>
                             <div class="col-md-12">
-                                <input type="text" name="foto"  class="form-control form-control-line"> </div>
+                                <input type="file" name="foto"  class="form-control form-control-line"> </div>
                         </div>
                         <div class="form-group">
                             <div class="col-sm-12">

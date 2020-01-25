@@ -38,7 +38,7 @@ include("koneksi.php");
                     $query = mysqli_query($db, "SELECT * FROM pkl WHERE features_id='$id'");
                     while ($data = mysqli_fetch_array($query)) {
                     ?>
-                        <form class="form-horizontal form-material" action="update.php" method="post">
+                        <form class="form-horizontal form-material" action="update.php" method="post" enctype="multipart/form-data">
                             <div class="form-group">
                                 <label class="col-md-12">Nama</label>
                                 <div class="col-md-12">
@@ -73,7 +73,10 @@ include("koneksi.php");
                             <div class="form-group">
                                 <label class="col-md-12">Foto</label>
                                 <div class="col-md-12">
-                                    <input type="text" name="foto" value="<?php echo $data['features_properties_Foto'] ?>" class="form-control form-control-line"> </div>
+                                    <input type="file" name="foto" value="<?php echo $data['features_properties_Foto'] ?>" class="form-control form-control-line">
+                                    <span name="old" value="<?=$data['features_properties_Foto']?>"><?php echo $data['features_properties_Foto']?></span> </div>
+                                    <div class="col-md-12">
+                                    <img src="<?php echo $data['features_properties_Foto'] ?>" width="100px"></div>
                             </div>
                             <div class="form-group">
                                 <div class="col-sm-12">
